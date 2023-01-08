@@ -5,7 +5,7 @@
 import { factories } from "@strapi/strapi";
 
 export default factories.createCoreRouter("api::post.post", {
-  only: [],
+  only: ["find", "findOne"],
   config: {
     find: {
       policies: ["is-admin"],

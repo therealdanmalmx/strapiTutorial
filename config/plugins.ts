@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   // ...
   "github-projects": {
     enabled: true,
